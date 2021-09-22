@@ -6,7 +6,6 @@ while (True):
         print("")
     
     if (naam.lower() == "stop" or leeftijd.lower() == "stop"):
-        wantstoend = True
         quit()
 
     deVraag(naam, leeftijd)
