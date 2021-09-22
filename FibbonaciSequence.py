@@ -20,7 +20,6 @@ def fibbonaci(n1, n2, count, nterms):
             else:
                break
     print("")
-    print("De gulden snede is dus", n1)
+    return "De gulden snede is dus "+ str(n1)
 
-fibbonaci(0, 1, 0 ,nterms)
-    
+print(fibbonaci(0, 1, 0 ,nterms))
