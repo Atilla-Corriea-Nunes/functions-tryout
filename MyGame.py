@@ -18,8 +18,117 @@ i2 = ("")
 i3 = ("")
 retry = ("")
 gameisfinished = False
+informalgender = ("")
+coinholder = ("")
+plgender = ("")
 
 money = ("59")
+
+
+
+
+def ending1():
+                 print("Filled with terror due to the strange situation you find yourself in you make a run back to your shack")
+                 print("'Its not worth staying here any longer, i'll just kick down the door when i get to my house'")  
+                 print("You run and run to your house, but the path feels like it takes way longer to reach your house then usual...")
+                 print("But you keep running and running even though you get the feeling that your surroundings arent familliar")
+                 print("What happened? Where did you run to when overtaken by panic? I guess nobody will ever know")
+                 print("")
+                 print("YOU GOT THE INSANITY ENDING: Running maniac!")
+                 print("Thanks for playing the game! you got ending 1 out of 7! try to get all the endings")
+                
+def ending2():
+                print("There's no reason for you to trust this voice, you must find an actual person to talk to and quickly. This situation is extremely unsettling")
+                print("You quickly grab your keys and stuff them in your pockets. You run out of the house in search of a living soul that could tell you what is happening ")
+                print("Running around the village in distress you cant see anyone. All of the lights in the houses are off.")
+                print("Finally you make it to the village church. The inside is lit! Great, there must be people in there")
+                print("You open the doors to the church. As you look inside you hear loud chanting in a language you dont understand. The church is filled completely, every seat it taken by someone and theres a bunch of villagers chanting something at the very end")
+                print("All of the villagers are wearing black robes with hoods and ignore your presense as you walk into the church 'What is happening? this must be the entire population of the village in here at the same time!' you think")
+                print("You quickly look at the almost unrecognisable group of people that is chanting something hoping to recognize Sebastian")
+                print("Thankfully you spot what looks to be Sebastian. You hurriedly get to him and tap him on his shoulder 'Sebastian, whats happening? Why is the entire village here? I need your help'")
+                print("'Ah, "+ str(plname) +",you finally came. We were expecting you. Come join us now!' He says. The voice does not sound like Sebastian's")
+                print("The hooded figure turns around to meet your eyes. When you look into his eyes you make the terrifying discovery that his eyes are completely blood red")
+                print("You feel your body hitting the ground from pure shock as you lose conciousness...")
+                print("")
+                print("YOU GOT THE INSANITY ENDING: Doomed by the cult!")
+                print("Thanks for playing the game! You got ending 2 out of 7! Try to get all the endings")
+
+def ending3():
+                print("You decide that this has been more than enough stress for one day and that you need to get a good night's rest in order to think right")
+                print("You walk up to the door of your shack and hesitate, but then you put the keys into the door. The door unlocks")
+                print("'Finally im home safe' you think to yourself")
+                print("You take 1 step into your house and then... your foot never touches the floor. The place where the floor of your house is supposed to be is a giant hole")
+                print("As you take the step into the infinite abyss you scream in terror. Quickly your entire vision becomes filled with the pure blackness of the void. Out here there's no one to hear your screams...")
+                print("")
+                print("YOU GOT THE INSANITY ENDING: Unending fall into the abyss!")
+                print("Thanks for playing the game! you got ending 3 out of 7! try to get all the endings")
+
+def cstay():
+                print("You surpress the urge to run.'no need to panic, its probably nothing unusual' you tell yourself")
+                print("You walk to Sebastian's house and knock on the door.'Hey sebastian, you still up?' you call out.")
+                print("But before you hear a reply the door suddenly opens by itself...")
+                print("'Woah, its unusual for Sebastian to leave his front door unlocked, especially during the night' you think")
+                print("You make your way into the house to make sure your friend is alright")
+                print("But there isnt a trace of him... 'Well, this is quite awfull' you think as you look around the almost empty house.")
+                print("You spot the spare keys to your house. Getting home isn't more important then your friend but its nice to grab the keys so you dont forget later")
+                print("As soon as your hand touches the keys you hear the sound of a voice. instinctively you turn around to see who was talking but nobody is around")
+                print("'You're in danger' The voice says.'who are you?' you reply. The voice does remind you of Sebastian's voice but the location its coming from is completely empty... something is up... ")
+                print("The voice calls out once more: 'A wave of madness will soon hit your world, but you can still be saved. Take the path that goes to Riverdale and you can be saved'")
+                print("In confusion you stand there for a moment. 'Riverdale is the big city thats quite a long way from the village' you remember")
+                print("'Quickly! Not much time remains!' The voice says whilst fading away.")
+                print("Its time for you to choose...")
+                print("")
+            
+def clisten():
+                print("'This isn't any normal situation, if i want to make it out here alive i should listen to his advice'")
+                print("You quickly grab your keys on your way out of the house")
+                print("You make your way to the path to Riverdale. You never noticed but this path that leads to Riverdale goes right past your house")
+                print("As you walk back into the woods this time instead of feeling like you're being watched you feel like a guardian is looking over you, protecting you")
+                print("You reach your house, but that isn't your destination. its time to head further into Riverdale")
+                print("Although, it would be extremely easy to just get into your home right now. You still have the spare keys from sebastian's house. Your body is exhausted from panicing all day so you could use a rest...")
+                print("")
+
+def ccontinue():
+                print("'No, i didnt get this far just to give up' you think. You continue past your house.")
+                print("Soon you reach the river that devides the woods and an open grassy area")
+                print("You dont come here often but you're sure that the path leads to a brigde to cross this river")
+                print("One problem though: the bridge you remember is nowhere to be seen")
+                print("You look around, trying to find a way to cross the bridge")
+                print("Whislt you are looking for around for a solution you spot a cave entrance, but something about it is different.")
+                print("The outside is decorated with torches that burn a bright green color. You get the feeling that the guardian that protects you wants you to go there")
+                print("Seeing no better choice you head into the cave")
+                print("The inside of the cave is decorated with skulls and is lit by more torches that burn with green fire.")
+                print("even though the place feels strange, you have a weird calm feeling.")
+                print("You reach the end of the cave and are met with a huge stone door.")
+                print("There is an inscription that reads: 'The "+ str(informalgender) +" that has met the fate of insanity all three times holds the key to unlock safety. Input the correct code to pass")
+                print("Underneath inscription there are 4 buttons: up, down, left and right.")
+                print("")
+
+def askforhelp():
+                print("You call out desperately for help one last time, hoping that your guardian responds")
+                print("After a couple of seconds of silence you can hear the same voice that you heard in Sebastians's house")
+                print("'every time you meet that girl in the forest there will be a path that leads to you going insane. Go down all 3 of those paths and look at the first letter of each ending. R = Right, U = Up, D = down and L = left. Then, put in the code in the same order as the endings are numbered. Only then can you survive this nightmare' ")
+                print("Then, the voice fades away one last time")
+                print("Thats it then, my only choice is to input the code...")
+                print("")
+
+def truending():
+                print("You press the correct arrows in a row, not sure how you knew the solution...")
+                print("Whatever, its time for you to get inside this cave and into safety")
+                print("You look around at the inside of the cave. it appears to be filled with provisions: food and water, as you look around you notice the door has shut behind you")
+                print("You find yet another inscription, it reads: 'Welcome "+ str(plname) +" if you're reading this the corruption has begun to spread to our village. This land has held an ancient curse that would be awoken by a wandering demon that disguises herself as a little girl playing with dolls'")
+                print("You stop reading for a second to realize the girl you saw in the woods must have been what started all this, still in shock of the situation you continue reading")
+                print("'For centuries our village has attempted to disspell the curse to no avail. We were never sure when the corruption would start but if you're here it means i must have lead you here in some way. The only option you have is to hide in this special bunker that can resist the corruption. There's food and water for you to survive. The door opens automatically after the corruption has stopped. best of luck to you' signed - Sebastian")
+                print("Wow, unbelievable. I guess your only option is to wait")
+                print("")
+                print("1 MONTH LATER")
+                print("")
+                print("Its been a long time. You no longer know if its day or night due to the fact that no sunlight shines outside. One day the loud sound of the door opening is heard through the bunker. You gather your belongings and leave the cave")
+                print("You take your first look out of the cave in a long time. All of the plants and trees have died. It almost looks like a wildfire came through here... Its time for you to venture out and find civilization, if there is any left...")
+                print("")
+                print("YOU GOT THE SECRET ENDING: The true ending!")
+                print("Thanks for playing the game! you got ending ? out of 7! This is the secret and final ending. Congratulations on getting here!")
+
 
 print("")
 print("")
@@ -136,31 +245,10 @@ if (c2.lower() == "yes"):
             c4 = str(input("What do you do? (Run/Stay) "))
             print("")
             if (c4.lower() == "run"):
-                 print("Filled with terror due to the strange situation you find yourself in you make a run back to your shack")
-                 print("'Its not worth staying here any longer, i'll just kick down the door when i get to my house'")  
-                 print("You run and run to your house, but the path feels like it takes way longer to reach your house then usual...")
-                 print("But you keep running and running even though you get the feeling that your surroundings arent familliar")
-                 print("What happened? Where did you run to when overtaken by panic? I guess nobody will ever know")
-                 print("")
-                 print("YOU GOT THE INSANITY ENDING: Running maniac!")
-                 print("Thanks for playing the game! you got ending 1 out of 7! try to get all the endings")
+                 ending1()
                  quit()
             elif (c4.lower() == "stay"):
-                print("You surpress the urge to run.'no need to panic, its probably nothing unusual' you tell yourself")
-                print("You walk to Sebastian's house and knock on the door.'Hey sebastian, you still up?' you call out.")
-                print("But before you hear a reply the door suddenly opens by itself...")
-                print("'Woah, its unusual for Sebastian to leave his front door unlocked, especially during the night' you think")
-                print("You make your way into the house to make sure your friend is alright")
-                print("But there isnt a trace of him... 'Well, this is quite awfull' you think as you look around the almost empty house.")
-                print("You spot the spare keys to your house. Getting home isn't more important then your friend but its nice to grab the keys so you dont forget later")
-                print("As soon as your hand touches the keys you hear the sound of a voice. instinctively you turn around to see who was talking but nobody is around")
-                print("'You're in danger' The voice says.'who are you?' you reply. The voice does remind you of Sebastian's voice but the location its coming from is completely empty... something is up... ")
-                print("The voice calls out once more: 'A wave of madness will soon hit your world, but you can still be saved. Take the path that goes to Riverdale and you can be saved'")
-                print("In confusion you stand there for a moment. 'Riverdale is the big city thats quite a long way from the village' you remember")
-                print("'Quickly! Not much time remains!' The voice says whilst fading away.")
-                print("Its time for you to choose...")
-                print("")
-
+                cstay()
                 break
             else:
                 print("Oops, thats an incorrect input. accepted inputs are Run or Stay")
@@ -173,29 +261,10 @@ if (c4.lower() == "stay"):
             c5 = str(input("Do you listen to the advice or do you ignore it? (Listen/Ignore) "))
             print("")
             if (c5.lower() == "listen"):
-                print("'This isn't any normal situation, if i want to make it out here alive i should listen to his advice'")
-                print("You quickly grab your keys on your way out of the house")
-                print("You make your way to the path to Riverdale. You never noticed but this path that leads to Riverdale goes right past your house")
-                print("As you walk back into the woods this time instead of feeling like you're being watched you feel like a guardian is looking over you, protecting you")
-                print("You reach your house, but that isn't your destination. its time to head further into Riverdale")
-                print("Although, it would be extremely easy to just get into your home right now. You still have the spare keys from sebastian's house. Your body is exhausted from panicing all day so you could use a rest...")
-                print("")
+                clisten()
                 break
             elif (c5.lower() == "ignore"):
-                print("There's no reason for you to trust this voice, you must find an actual person to talk to and quickly. This situation is extremely unsettling")
-                print("You quickly grab your keys and stuff them in your pockets. You run out of the house in search of a living soul that could tell you what is happening ")
-                print("Running around the village in distress you cant see anyone. All of the lights in the houses are off.")
-                print("Finally you make it to the village church. The inside is lit! Great, there must be people in there")
-                print("You open the doors to the church. As you look inside you hear loud chanting in a language you dont understand. The church is filled completely, every seat it taken by someone and theres a bunch of villagers chanting something at the very end")
-                print("All of the villagers are wearing black robes with hoods and ignore your presense as you walk into the church 'What is happening? this must be the entire population of the village in here at the same time!' you think")
-                print("You quickly look at the almost unrecognisable group of people that is chanting something hoping to recognize Sebastian")
-                print("Thankfully you spot what looks to be Sebastian. You hurriedly get to him and tap him on his shoulder 'Sebastian, whats happening? Why is the entire village here? I need your help'")
-                print("'Ah, "+ str(plname) +",you finally came. We were expecting you. Come join us now!' He says. The voice does not sound like Sebastian's")
-                print("The hooded figure turns around to meet your eyes. When you look into his eyes you make the terrifying discovery that his eyes are completely blood red")
-                print("You feel your body hitting the ground from pure shock as you lose conciousness...")
-                print("")
-                print("YOU GOT THE INSANITY ENDING: Doomed by the cult!")
-                print("Thanks for playing the game! You got ending 2 out of 7! Try to get all the endings")
+                ending2()
                 quit()
                 break
             else:
@@ -207,30 +276,10 @@ if (c5.lower() == "listen"):
             c6 = str(input("Do you go home or do you continue your journey? (Home/Continue) "))
             print("")
             if (c6.lower() == "home"):
-                print("You decide that this has been more than enough stress for one day and that you need to get a good night's rest in order to think right")
-                print("You walk up to the door of your shack and hesitate, but then you put the keys into the door. The door unlocks")
-                print("'Finally im home safe' you think to yourself")
-                print("You take 1 step into your house and then... your foot never touches the floor. The place where the floor of your house is supposed to be is a giant hole")
-                print("As you take the step into the infinite abyss you scream in terror. Quickly your entire vision becomes filled with the pure blackness of the void. Out here there's no one to hear your screams...")
-                print("")
-                print("YOU GOT THE INSANITY ENDING: Unending fall into the abyss!")
-                print("Thanks for playing the game! you got ending 3 out of 7! try to get all the endings")
+                ending3()
                 quit()
             elif (c6.lower() == "continue"):
-                print("'No, i didnt get this far just to give up' you think. You continue past your house.")
-                print("Soon you reach the river that devides the woods and an open grassy area")
-                print("You dont come here often but you're sure that the path leads to a brigde to cross this river")
-                print("One problem though: the bridge you remember is nowhere to be seen")
-                print("You look around, trying to find a way to cross the bridge")
-                print("Whislt you are looking for around for a solution you spot a cave entrance, but something about it is different.")
-                print("The outside is decorated with torches that burn a bright green color. You get the feeling that the guardian that protects you wants you to go there")
-                print("Seeing no better choice you head into the cave")
-                print("The inside of the cave is decorated with skulls and is lit by more torches that burn with green fire.")
-                print("even though the place feels strange, you have a weird calm feeling.")
-                print("You reach the end of the cave and are met with a huge stone door.")
-                print("There is an inscription that reads: 'The "+ str(informalgender) +" that has met the fate of insanity all three times holds the key to unlock safety. Input the correct code to pass")
-                print("Underneath inscription there are 4 buttons: up, down, left and right.")
-                print("")
+                ccontinue()
                 break
             else:
                 print("Oops, thats an incorrect input. accepted inputs are Home or Continue")
@@ -245,12 +294,7 @@ if (c6.lower() == "continue"):
                 print("You feel like you know the solution to the puzzle and start to input the code")
                 break
             elif (c7.lower() == "help"):
-                print("You call out desperately for help one last time, hoping that your guardian responds")
-                print("After a couple of seconds of silence you can hear the same voice that you heard in Sebastians's house")
-                print("'every time you meet that girl in the forest there will be a path that leads to you going insane. Go down all 3 of those paths and look at the first letter of each ending. R = Right, U = Up, D = down and L = left. Then, put in the code in the same order as the endings are numbered. Only then can you survive this nightmare' ")
-                print("Then, the voice fades away one last time")
-                print("Thats it then, my only choice is to input the code...")
-                print("")
+                askforhelp()
                 break
             else:
                 print("oops, thats an incorrect input. accepted inputs are Solution or Help")
@@ -265,21 +309,7 @@ if (c7.lower() == "solution" or c7.lower() == "help"):
             i3 = str(input("Third input (Up/Down/Left/Right)"))
             print("")
             if (i1.lower() == "right" and i2.lower() == "down" and i3.lower() == "up"):
-                print("You press the correct arrows in a row, not sure how you knew the solution...")
-                print("Whatever, its time for you to get inside this cave and into safety")
-                print("You look around at the inside of the cave. it appears to be filled with provisions: food and water, as you look around you notice the door has shut behind you")
-                print("You find yet another inscription, it reads: 'Welcome "+ str(plname) +" if you're reading this the corruption has begun to spread to our village. This land has held an ancient curse that would be awoken by a wandering demon that disguises herself as a little girl playing with dolls'")
-                print("You stop reading for a second to realize the girl you saw in the woods must have been what started all this, still in shock of the situation you continue reading")
-                print("'For centuries our village has attempted to disspell the curse to no avail. We were never sure when the corruption would start but if you're here it means i must have lead you here in some way. The only option you have is to hide in this special bunker that can resist the corruption. There's food and water for you to survive. The door opens automatically after the corruption has stopped. best of luck to you' signed - Sebastian")
-                print("Wow, unbelievable. I guess your only option is to wait")
-                print("")
-                print("1 MONTH LATER")
-                print("")
-                print("Its been a long time. You no longer know if its day or night due to the fact that no sunlight shines outside. One day the loud sound of the door opening is heard through the bunker. You gather your belongings and leave the cave")
-                print("You take your first look out of the cave in a long time. All of the plants and trees have died. It almost looks like a wildfire came through here... Its time for you to venture out and find civilization, if there is any left...")
-                print("")
-                print("YOU GOT THE SECRET ENDING: The true ending!")
-                print("Thanks for playing the game! you got ending ? out of 7! This is the secret and final ending. Congratulations on getting here!")
+                truending()
                 quit()
             else:
                 print("That seems to be the wrong solution...")
@@ -458,3 +488,4 @@ if (upgrade == True):
                 break
             else:
                 print("Oops, thats an incorrect input. Accepted inputs are Give or Dont")
+
